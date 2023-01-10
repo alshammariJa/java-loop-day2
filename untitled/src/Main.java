@@ -153,9 +153,7 @@ public class Main {
              String str = input.nextLine();
               int strLength = str.length();
               String reverseStr = "";
-//
-//
-//
+
         for (int i = (strLength - 1); i >=0; --i) {
             reverseStr = reverseStr + str.charAt(i);
         }
@@ -166,6 +164,6 @@ public class Main {
         else {
             System.out.println(str + " is not  palindrome string.");
         }
-          ////////////////
+          
     }
 }
